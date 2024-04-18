@@ -59,7 +59,7 @@ class ShowTotal extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   for (final bucket in buckets) // alternative to map()
-                    Text(' ${bucket.totalExpense /*== 0 ? 0 : maxTotalExpense*/}',style:const TextStyle(fontSize: 20.0),)
+                    Text(' ${bucket.totalExpense }',style:const TextStyle(fontSize: 20.0),)
                 ],
               ),
             ),
